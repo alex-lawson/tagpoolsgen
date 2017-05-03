@@ -96,3 +96,5 @@ ENV/
 # Sublime projects / workspaces
 *.sublime-project
 *.sublime-workspace
+
+output.txt
