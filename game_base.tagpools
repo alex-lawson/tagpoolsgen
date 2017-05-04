@@ -1,44 +1,46 @@
 $GAME
-[GENRE]{nia} where you [VERB] [NOUN]{np}
-[GENRE]{nia} where you [VERB] [NOUN]{nia}
+[GENRE]{nia} where you [GOAL]
 [FAMOUS GAME] meets [FAMOUS GAME]
 [FAMOUS GAME] as [GENRE]{nia}
-Like [FAMOUS GAME] but with [VERB]{vpp} [NOUN]{np}
-Like [FAMOUS GAME] but with [NOUN] [VERB]{vpp}
+Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSP]
 Like [FAMOUS GAME] but [SETTING]
 Like [FAMOUS GAME] with [FEATURE]
 Like [FAMOUS GAME] based on [MYTHOS]
-[AGAME], set [SETTING] with [NOUN]{np}
+Like [FAMOUS GAME] with a strong theme of [THEME]
+[AGAME], set [SETTING] with [NOUNSP]
 [AGAME], set [SETTING] with [FEATURE]
-[AGAME] where you [VERB] [NOUN]{np}
-[AGAME] where you [VERB] [NOUN]{np} with [NOUN]{np}
-[AGAME] where you [VERB] a [NOUN], with [FEATURE]
-[AGAME] where you use [NOUN]{np} to [VERB] [NOUN]{np}
-[AGAME] where you [VERB] [NOUN]{nia} [SETTING]
-[AGAME] where you [VERB] [NOUN]{np} [SETTING]
+[AGAME] with [FEATURE] where you [GOAL]
+[AGAME] in which you must [GOAL]
+[AGAME] that challenges you to [GOAL]
+[AGAME] where you [GOAL]
+[AGAME] where you [GOAL]
+[AGAME] that explores [THEME] where you [GOAL]
+[AGAME] where you [GOAL] as a metaphor for [THEME]
+[AGAME] that represents [THEME] using [NOUNSP]
 [AGAME] with [FEATURE] and [FEATURE]
-[AGAME] with [FEATURE] based on [VERB]{vpp} [NOUN]{np}
-[AGAME] with [GENRE] elements featuring [NOUN]{np}
+[AGAME] with [FEATURE] based on [VERB]{vpp} [NOUNSP]
+[AGAME] with [GENRE] elements featuring [NOUNSP]
 [AGAME] but kind of like [FAMOUS GAME]
-In a world made of [NOUN]{np} you must [VERB] the last [NOUN]
+[AGAME] that explores [THEME]
+In a world of [NOUNSP] you must [GOAL]
 
 $AGAME
 [GENRE]{nia}
 [GENRE]{nia}
-[THEME]{nia} [GENRE]
-[THEME]{nia} [GENRE]
-[THEME]{nia} game
-[THEME]{nia} game
+[STYLE]{nia} [GENRE]
+[STYLE]{nia} [GENRE]
+[STYLE]{nia} game
+[STYLE]{nia} game
 [NOUN]{nia} game
 A simple [NOUN] game
 A game about [NOUN]{np}
 A game about [VERB]{vpp}
 [GENRE]{nia} based on [MYTHOS]
 A game based on [MYTHOS]
-[THEME]{nia} game based on [MYTHOS]
-[THEME]{nia} [GENRE] based on [MYTHOS]
+[STYLE]{nia} game based on [MYTHOS]
+[STYLE]{nia} [GENRE] based on [MYTHOS]
 
-$THEME
+$STYLE
 science fiction
 hard sci-fi
 high fantasy
@@ -59,6 +61,81 @@ body horror
 celestial
 allegorical
 educational
+
+$THEME
+alien contact
+artificial intelligence
+transhumanism
+cosmology
+causality
+existentialism
+evolution
+the future
+alternate history
+psychology
+human fears
+identity
+isolation
+language
+cyberwarfare
+determinism
+morality
+sexuality
+aesthetics
+sociology
+technological singularity
+intelligence amplification
+cryonics
+memory
+mind control
+amnesia
+psychedelia
+the collective unconscious
+reality television
+space colonization
+capitalism
+communism
+utopia
+dystopia
+ecology
+economics
+eugenics
+pacifism
+slavery
+theocracy
+the unknown
+mortality
+immortality
+chaos and order
+darkness and light
+empowerment
+disempowerment
+love
+faith
+free will
+hierarchy
+isolation
+materialism
+hope
+optimism
+patriotism
+self-awareness
+war
+chance
+courage
+change
+desire
+greed
+satisfaction
+law
+justice
+revolution
+solitude
+trust
+wisdom
+forgiveness
+jealousy
+opportunity
 
 $MYTHOS
 the writing of [AUTHOR]
@@ -112,37 +189,39 @@ Cooperative [GENRE]
 Massively-Multiplayer [GENRE]
 Roguelike [GENRE]
 Sandbox [GENRE]
-Adventure Game
-Platformer
-Survival Horror Game
-Metroidvania
-Brawler
-Fighting Game
-Vertically-scrolling Shooter
-Side-scrolling Shooter
-Bullet Hell Shooter
-First-person Shooter
-Third-person Shooter
-Role Playing Game
-JRPG
-Text Adventure
-Graphical Adventure
-Visual Novel
-Sim
-Management Sim
 4X Game
-RTS
-Turn-based Strategy Game
-Collectible Card Game
-MOBA
-Racing Game
-Sports Game
-Rhythm Game
+Action RPG
+Adventure Game
+Brawler
+Bullet Hell Shooter
 Clicker
-Walking Simulator
-Typing Game
-Puzzle Game
+Collectible Card Game
+Dating Sim
+Fighting Game
+First-person Shooter
+Graphical Adventure
+JRPG
+Management Sim
+Metroidvania
+MOBA
 Physics Puzzler
+Platformer
+Puzzle Game
+Racing Game
+Rhythm Game
+Role Playing Game
+RTS
+Side-scrolling Shooter
+Sim
+Sports Game
+Survival Horror Game
+Text Adventure
+Third-person Shooter
+Turn-based Strategy Game
+Typing Game
+Vertically-scrolling Shooter
+Visual Novel
+Walking Simulator
 
 $FAMOUS GAME
 Minecraft
@@ -319,336 +398,17 @@ a custom controller
 real-time progression
 mod support
 
-$SETTING
-[PLACE]
-[TIME]
-[TIME] [PLACE]
+$GOAL
+[VERB] [NOUNSP]
+[VERB] [NOUNSP]
+[VERB] [NOUNSP] [ADV]
+[VERB] [NOUNSP] with [NOUNSP]
+[VERB] [NOUNSP] with [NOUNSP]
+[ADV] [VERB] [NOUNSP] with [NOUNSP]
+use [NOUNSP] to [VERB] [NOUNSP]
 
-$TIME
-in prehistory
-in [ERA]
-in the ancient past
-in the recent past
-in the modern age
-in the near future
-in the distant future
-in a post-apocalyptic future
-in a dystopian future
-in a utopian future
-in [CENTURY]
-
-$ERA
-the Pleistocene epoch
-the Pliocene epoch
-the Miocene epoch
-the Oligocene epoch
-the Eocene epoch
-the Paleocene epoch
-the Mesozoic era
-the Cretaceous period
-the Jurassic period
-the Triassic period
-the Paleozoic era
-
-$CENTURY
-the first century
-the second century
-the third century
-the fourth century
-the fifth century
-the sixth century
-the seventh century
-the eighth century
-the ninth century
-the 10th century
-the 11th century
-the 12th century
-the 13th century
-the 14th century
-the 15th century
-the 16th century
-the 17th century
-the 18th century
-the 19th century
-the 20th century
-
-$PLACE
-in [COUNTRY]
-in [CONTINENT]
-in rural [COUNTRY]
-in ancient [COUNTRY]
-somewhere in [CONTINENT]
-in [BUILDING]{nia}
-in [BUILDING]{nia}
-in [BUILDING]{nia} in [COUNTRY]
-in an abandoned [BUILDING]
-in a secret [BUILDING]
-in a famous [BUILDING]
-in a beautiful [BUILDING]
-in a cave
-in a hole in the ground
-on a train
-on an airplane
-in an underground world
-in the clouds
-in the desert
-in the arctic
-in the antarctic
-in the mountains
-in the jungle
-in a valley
-on the moon
-on another planet
-in space
-in the ocean
-in a forest
-in a field
-in the sky
-in your mind
-inside a child's mind
-in a video game
-in the American South
-
-$BUILDING
-apartment
-skyscraper
-hotel
-casino
-house
-cave
-hut
-tower
-castle
-palace
-village
-city
-factory
-warehouse
-laboratory
-observatory
-art gallery
-market
-shop
-department store
-hospital
-nursery
-elementary school
-middle school
-high school
-university
-library
-
-$CONTINENT
-North America
-South America
-Europe
-Asia
-Australia
-Antarctica
-Africa
-Pangea
-
-$COUNTRY
-Afghanistan
-Albania
-Algeria
-Andorra
-Angola
-Antigua and Barbuda
-Argentina
-Armenia
-Aruba
-Australia
-Austria
-Azerbaijan
-The Bahamas
-Bahrain
-Bangladesh
-Barbados
-Belarus
-Belgium
-Belize
-Benin
-Bhutan
-Bolivia
-Bosnia and Herzegovina
-Botswana
-Brazil
-Brunei
-Bulgaria
-Burkina Faso
-Burma
-Burundi
-Cambodia
-Cameroon
-Canada
-Cabo Verde
-Central African Republic
-Chad
-Chile
-China
-Colombia
-Comoros
-Democratic Republic of the Congo
-Costa Rica
-Cote d'Ivoire
-Croatia
-Cuba
-Curacao
-Cyprus
-Czechia
-Denmark
-Djibouti
-Dominica
-Dominican Republic
-East Timor
-Ecuador
-Egypt
-El Salvador
-Equatorial Guinea
-Eritrea
-Estonia
-Ethiopia
-Fiji
-Finland
-France
-Gabon
-The Gambia
-Georgia
-Germany
-Ghana
-Greece
-Grenada
-Guatemala
-Guinea
-Guinea-Bissau
-Guyana
-Haiti
-Holy See
-Honduras
-Hong Kong
-Hungary
-Iceland
-India
-Indonesia
-Iran
-Iraq
-Ireland
-Israel
-Italy
-Jamaica
-Japan
-Jordan
-Kazakhstan
-Kenya
-Kiribati
-North Korea
-South Korea
-Kosovo
-Kuwait
-Kyrgyzstan
-Laos
-Latvia
-Lebanon
-Lesotho
-Liberia
-Libya
-Liechtenstein
-Lithuania
-Luxembourg
-Macau
-Macedonia
-Madagascar
-Malawi
-Malaysia
-Maldives
-Mali
-Malta
-Marshall Islands
-Mauritania
-Mauritius
-Mexico
-Micronesia
-Moldova
-Monaco
-Mongolia
-Montenegro
-Morocco
-Mozambique
-Namibia
-Nauru
-Nepal
-Netherlands
-New Zealand
-Nicaragua
-Niger
-Nigeria
-North Korea
-Norway
-Oman
-Pakistan
-Palau
-Palestinian Territories
-Panama
-Papua New Guinea
-Paraguay
-Peru
-Philippines
-Poland
-Portugal
-Qatar
-Romania
-Russia
-Rwanda
-Saint Kitts and Nevis
-Saint Lucia
-Saint Vincent and the Grenadines
-Samoa
-San Marino
-Sao Tome and Principe
-Saudi Arabia
-Senegal
-Serbia
-Seychelles
-Sierra Leone
-Singapore
-Sint Maarten
-Slovakia
-Slovenia
-Solomon Islands
-Somalia
-South Africa
-South Korea
-South Sudan
-Spain
-Sri Lanka
-Sudan
-Suriname
-Swaziland
-Sweden
-Switzerland
-Syria
-Taiwan
-Tajikistan
-Tanzania
-Thailand
-Timor-Leste
-Togo
-Tonga
-Trinidad and Tobago
-Tunisia
-Turkey
-Turkmenistan
-Tuvalu
-Uganda
-Ukraine
-United Arab Emirates
-United Kingdom
-Uruguay
-Uzbekistan
-Vanuatu
-Venezuela
-Vietnam
-Yemen
-Zambia
-Zimbabwe
+$NOUNSP
+[NOUN]{nia}
+[NOUN]{np}
+[ADJ]{nia} [NOUN]
+[ADJ] [NOUN]{np}
