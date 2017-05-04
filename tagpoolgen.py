@@ -26,6 +26,7 @@ def handle_match(match):
     key = match.group(1)
     if key in pools:
         choice = random.choice(pools[key])
+        choice = replace_tags(choice)
         if match.group(3):
             op = match.group(3)
             if op == 'nia':
