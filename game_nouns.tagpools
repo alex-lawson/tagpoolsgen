@@ -6,6 +6,37 @@ $NOUN
 0.75 [PLANT]
 0.5 [ABSTRACTNOUN]
 0.5 [BUILDING]
+0.5 [EVENT]
+
+$EVENT
+festival
+eclipse
+sale
+journey
+meeting
+conference
+war
+battle
+ceasefire
+race
+hunt
+speech
+play
+concert
+exhibition
+show
+market
+day
+night
+solstice
+equinox
+auction
+carnival
+revelation
+recital
+performance
+game
+contest
 
 $PERSON
 infant
@@ -356,22 +387,67 @@ violin
 $FOOD
 5.0 [FRUIT]
 5.0 [VEGETABLE]
-beer
-bread
+5.0 [BAKEDGOOD]
+3.0 [SAVORY]
+5.0 [DRINK]
 candy
-egg
-grain
-steak
 meal
 nut
-tart
-cake
-tuber
-wine
-whiskey
-yeast
 snack
 treat
+
+$SAVORY
+pasta
+pizza
+hamburger
+steak
+sandwich
+egg
+stirfry
+curry
+pork chop
+bacon
+lamb chop
+beef wellington
+spaghetti
+
+$DRINK
+beer
+wine
+soda
+lemonade
+juice
+water
+whiskey
+gin
+liquor
+vodka
+mead
+ale
+sake
+milk
+tea
+iced tea
+coffee
+
+$BAKEDGOOD
+bread
+muffin
+tart
+cake
+cupcake
+pancake
+pie
+roll
+loaf
+baguette
+danish
+crumpet
+croissant
+cookie
+biscuit
+scone
+waffle
 
 $FRUIT
 fruit
@@ -382,6 +458,19 @@ banana
 pear
 raspberry
 blackberry
+kiwi
+blueberry
+strawberry
+lime
+lemon
+orange
+grapefruit
+melon
+watermelon
+jackfruit
+pomegranate
+guava
+mango
 
 $VEGETABLE
 vegetable
@@ -403,6 +492,7 @@ cauliflower
 pepper
 chili
 mushroom
+tomato
 
 $IMPLEMENT
 arrow
@@ -579,7 +669,7 @@ noose
 nugget
 parade
 limb
-keyyring
+keyring
 gift
 glob
 

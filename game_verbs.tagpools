@@ -1,62 +1,59 @@
 $VERB
-2 align
+100 [GAMEVERB]
+adjust
 animate
-3 arrange
-3 assemble
-3 balance
+bake
 believe
 bind
 bite
 blight
 blind
+boil
+braid
 breathe
+brew
 bring
-5 build
 burn
-3 buy
-2 carve
 catalogue
-3 catch
 charge
-3 chase
 chew
-3 climb
-5 collect
-2 combine
+circle
+coil
+color
 command
-3 control
-5 craft
-3 create
-2 cut
-2 deliver
-5 destroy
+cook
+curl
 dig
 dip
-2 disassemble
 discover
 drain
 draw
 drink
-3 drop
+dye
 eat
+embellish
+emboss
 empower
 empty
+enchant
+ensnare
+entertain
 excavate
-2 explore
+expose
 feed
-2 fill
-5 find
-3 fling
+ferment
 floss
 forget
 frame
 freeze
 fumble
 gobble
+graph
 grind
-3 hide
+harass
+harness
 hoard
-2 hold
+hoist
 inspect
 invent
 jump
@@ -69,36 +66,37 @@ lick
 lock
 lose
 mangle
+manufacture
 map
 master
-2 measure
 memorize
 mend
 mind
-3 mine
 nullify
+nurture
 observe
-3 paint
+outline
 pat
-2 pick
+perforate
+perform
 pile
 pinch
-2 pull
+polish
 punch
 punt
 pursue
-3 push
-3 rearrange
+read
 reave
 receive
-2 recover
 rend
-5 ride
 ring
 say
+scar
+scare
 scream
 sculpt
 seal
+season
 see
 sell
 shake
@@ -109,83 +107,104 @@ skin
 skip
 slap
 slice
-3 slide
 snap
 sort
 speak
-2 spin
-2 stack
 stain
-2 steal
+stain
 step
 stew
 stop
+strain
+style
 suck
+tackle
 taint
 tap
-4 throw
 toss
-3 trade
-4 train
+track
+translate
 trap
 travel
+traverse
 trim
 tug
+tune
 turn
-2 twist
-2 uncover
 watch
 weave
 wield
 wiggle
 write
-read
-enchant
-translate
-harass
-3 repel
+carve
+pick
+twist
+uncover
+enclose
+
+$GAMEVERB
+2 align
+2 combine
+2 cut
+2 deliver
+2 disassemble
+2 explore
+2 fill
+3 hold
+2 measure
+3 choose
+2 pull
+2 recover
+2 spin
+2 stack
+2 steal
+3 arrange
+3 assemble
 3 attract
-ensnare
-circle
-expose
-graph
-track
-adjust
-tune
-manufacture
-3 launch
-hoist
-harness
-scare
-scar
-strain
-coil
-curl
+3 balance
+3 buy
+3 catch
+3 chase
+3 climb
+3 control
+3 create
+3 drop
+3 fling
 3 guide
-entertain
-perform
-perforate
-style
-ferment
-cook
-bake
-boil
-brew
-season
-stain
-dye
-braid
-polish
-embellish
-traverse
-tackle
-5 carry
-color
-outline
-emboss
-4 protect
-nurture
+3 hide
+3 launch
+3 mine
+3 paint
+3 push
+3 rearrange
+3 repel
+3 slide
+3 trade
 4 grow
-5 defend
+4 protect
+4 throw
+4 train
 5 attack
-3 enclose
+5 build
+5 carry
+5 collect
+5 craft
+5 defend
+5 destroy
+5 find
+5 ride
+5 combine
+3 transform
+
+$TRAVEL
+3 ride [VEHICLE]{nia}
+2 run
+2 walk
+2 climb
+2 swim
+jump
+hop
+crawl
+tiptoe
+travel
+2 jog

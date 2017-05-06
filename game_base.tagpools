@@ -1,13 +1,13 @@
 $GAME
 0.25 [FAMOUS GAME] meets [FAMOUS GAME]
 0.25 [FAMOUS GAME] as [GENRE]{nia}
-0.25 Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSP]
+0.25 Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSPNIA]
 0.25 Like [FAMOUS GAME] but [SETTING]
 0.25 Like [FAMOUS GAME] with [MECHANIC]
 0.25 Like [FAMOUS GAME] with [MECHANIC] and [FEATURE]
 0.25 Like [FAMOUS GAME] based on [MYTHOS]
 0.25 [AGAME] but kind of like [FAMOUS GAME]
-[AGAME], set [SETTING] with [NOUNSP]
+[AGAME], set [SETTING] with [NOUNSPNIA]
 [AGAME], set [SETTING] with [MECHANIC]
 [AGAME] with [MECHANIC] where you [GOAL]
 [AGAME] in which you must [GOAL]
@@ -16,12 +16,12 @@ $GAME
 [AGAME] where you [GOAL]
 [AGAME] that explores [THEME] where you [GOAL]
 [AGAME] where you [GOAL] as a metaphor for [THEME]
-[AGAME] that represents [THEME] as [NOUNSP]
+[AGAME] that represents [THEME] as [NOUNSPNIA]
 [AGAME] with [MECHANIC] and [FEATURE]
-[AGAME] facilitating [MECHANIC] by [VERB]{vpp} [NOUNSP]
-[AGAME] with [GENRE] elements featuring [NOUNSP]
+[AGAME] facilitating [MECHANIC] by [VERB]{vpp} [NOUNSPNIA]
+[AGAME] with [GENRE] elements featuring [NOUNSPNIA]
 [AGAME] that explores [THEME]
-0.25 In a world of [NOUNSP] you must [GOAL]
+0.25 In a world of [NOUNSPNIA] you must [GOAL]
 
 $AGAME
 3 [GENRE]{nia}
@@ -37,23 +37,105 @@ $AGAME
 [STYLE]{nia} [GENRE] based on [MYTHOS]
 
 $GOAL
-[VERB] [NOUNSP]
+3 [OBJECTIVE]
+2 [SUBGOAL] until you can [OBJECTIVE]
+[SUBGOAL], then [SUBGOAL] to [OBJECTIVE]
+[VERB] to [OBJECTIVE]
+[VERB] [NOUNSPNIA] to [OBJECTIVE]
+2 [SUBGOAL] to [OBJECTIVE]
+be the first to [OBJECTIVE]
+2 [OBJECTIVE] before [CONDITION]
+[SUBGOAL] until [CONDITION], then [SUBGOAL] to [OBJECTIVE]
+[OBJECTIVE] while [CONDITION]
+[OBJECTIVE] until [CONDITION]
+2 [SUBGOAL] until you [OBJECTIVE]
+
+$SUBGOAL
+[TRAVEL]
+[TRAVEL] [ADV]
+[VERB]
+[VERB] [ADV]
+[TRAVEL] [DIRECTION]
+[VERB] [OBJECT]{nia}
 [VERB] [OBJECT]{np}
-[VERB] [NOUNSP] [ADV]
-[VERB] [NOUNSP] with [NOUNSP]
-[VERB] [OBJECT]{np} with [NOUNSP]
-[VERB] [NOUNSP] with [IMPLEMENT]{np}
-[ADV] [VERB] [NOUNSP] with [NOUNSP]
-use [NOUNSP] to [VERB] [OBJECT]{np}
-use [IMPLEMENT] to [VERB] [NOUNSP]
-fill [CONTAINER]{np} with [NOUNSP]
+[VERB] [NOUNSPNIA] [ADV]
+[VERB] [NOUNSPNIA] with [IMPLEMENT]{nia}
+[VERB] [NOUNSPNIA] with [IMPLEMENT]{np}
+
+$DIRECTION
+upward
+downward
+East
+West
+North
+South
+to the left
+to the right
+forward
+backward
+inward
+outward
+around
+anywhere
+elsewhere
+far away
+to the end
+to the beginning
+to the top
+to the bottom
+
+$OBJECTIVE
+collect all the [ADJ] [TREASURE]{np}
+assemble [NOUN]{np} to form [NOUNSPNIA]
+fill your [CONTAINER] with [NOUNSPNIA]
+reach the [LOCALEADJ] [LOCALE]
+find the [ADJ] [NOUN]
+find all of the [ADJ] [NOUN]{np}
+destroy the [NOUNSP]
+protect the [NOUNSP]
+discover the [NOUNSP]
+[VERB] the [NOUNSP]
+become the [ADJ] [NOUN]
+
+$CONDITION
+the [EVENT] begins
+the [EVENT] ends
+the [NOUN] is [ADJ]
+the [NOUN]{np} are [ADJ]
+the [OBJECT]{np} are in the [CONTAINER]{np}
+the [OBJECT] is in the [CONTAINER]
+the [NOUN] is complete
+you run out of [NOUN]{np}
+the [NOUN] can [VERB]
+the [NOUN] can [VERB] [NOUNSPNIA]
+the [NOUN] can't [VERB] anymore
+the [NOUN] can't [VERB] [NOUNSPNIA]
+
+$NOTHING
+[VERB] [NOUNSPNIA]
+[VERB] [OBJECT]{np}
+[VERB] [NOUNSPNIA] [ADV]
+[VERB] [NOUNSPNIA] with [NOUNSPNIA]
+[VERB] [OBJECT]{np} with [NOUNSPNIA]
+[VERB] [NOUNSPNIA] with [IMPLEMENT]{np}
+[ADV] [VERB] [NOUNSPNIA] with [NOUNSPNIA]
+use [NOUNSPNIA] to [VERB] [OBJECT]{np}
+use [IMPLEMENT] to [VERB] [NOUNSPNIA]
+fill [CONTAINER]{np} with [NOUNSPNIA]
 collect [OBJECT]{np} in [CONTAINER]{nia}
 collect all the [ADJ] [TREASURE]{np}
-assemble [NOUN]{np} to form [NOUNSP]
+assemble [NOUN]{np} to form [NOUNSPNIA]
+ride [VEHICLE]{nia} to collect [NOUN]{np}
 
 $NOUNSP
-[NOUN]{nia}
-[NOUN]{np}
+3 [NOUN]
+3 [NOUN]{np}
+[ADJ] [NOUN]
+[ADJ] [NOUN]{np}
+
+$NOUNSPNIA
+3 [NOUN]{nia}
+3 [NOUN]{np}
 [ADJ]{nia} [NOUN]
 [ADJ] [NOUN]{np}
 
