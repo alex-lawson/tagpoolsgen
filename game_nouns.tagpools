@@ -246,32 +246,40 @@ effect
 
 $BUILDING
 apartment
-skyscraper
-hotel
-casino
-house
-cave
-hut
-tower
-castle
-palace
-village
-city
-factory
-warehouse
-laboratory
-observatory
 art gallery
-market
-shop
+casino
+castle
+cave
+city
 department store
-hospital
-nursery
 elementary school
-middle school
+factory
+fortress
 high school
-university
+hospital
+hotel
+house
+hut
+laboratory
 library
+market
+middle school
+military base
+nursery
+observatory
+palace
+shop
+skyscraper
+stadium
+theater
+tower
+town
+university
+village
+warehouse
+office building
+bunker
+bomb shelter
 
 $OBJECT
 2.0 [TREASURE]

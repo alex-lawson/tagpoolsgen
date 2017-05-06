@@ -1,7 +1,7 @@
 $SETTING
-[PLACE]
+7 [PLACE]
+4 [TIME] [PLACE]
 [TIME]
-[TIME] [PLACE]
 
 $TIME
 in prehistory
@@ -52,40 +52,49 @@ the 19th century
 the 20th century
 
 $PLACE
-in [COUNTRY]
-in [CONTINENT]
-in rural [COUNTRY]
-in ancient [COUNTRY]
-somewhere in [CONTINENT]
-2 in [BUILDING]{nia}
-in [BUILDING]{nia} in [COUNTRY]
-in an abandoned [BUILDING]
-in a secret [BUILDING]
-in a famous [BUILDING]
-in a beautiful [BUILDING]
-in a cave
-in a hole in the ground
-on a train
-on an airplane
-in an underground world
-in the clouds
-in the desert
-in the arctic
-in the antarctic
-in the mountains
-in the jungle
-in a valley
-on the moon
-on another planet
-in space
-in the ocean
-in a forest
-in a field
+10 in [LOCALEADJ]{nia} [LOCALE]
 in the sky
-in your mind
-inside a child's mind
-in a video game
-in the American South
+3 in [BUILDING]{nia}
+in space
+on the moon
+5 in [BUILDINGADJ]{nia} [BUILDING]
+3 in [BUILDING]{nia} in [LOCALE]{nia}
+3 in [BUILDING]{nia} in [LOCALEADJ]{nia} [LOCALE]
+at bottom of the ocean
+in the ocean
+in [BUILDING]{nia} in [COUNTRY]
+in [CITY]
+in [CONTINENT]
+in [COUNTRY]
+3 in [COUNTRYADJ] [COUNTRY]
+inside a [PERSON]'s mind
+0.5 inside a video game
+3 on [LOCALEADJ]{nia} planet
+on [VEHICLE]{nia}
+on [VEHICLE]{nia} to [CITY]
+on [VEHICLE]{nia} to [COUNTRY]
+on the road to [CITY]
+2 somewhere in [CONTINENT]
+
+$LOCALE
+valley
+mountain
+river
+plain
+forest
+lake
+cave
+desert
+island
+highland
+mesa
+forest
+field
+meadow
+clearing
+jungle
+canyon
+mine
 
 $CONTINENT
 North America
@@ -95,10 +104,89 @@ Asia
 Australia
 Antarctica
 Africa
-Pangea
+
+$CITY
+5 New [CITY]
+4 Neo-[CITY]
+Shanghai
+Karachi
+Beijing
+Delhi
+Lagos
+Tianjin
+Istanbul
+Tokyo
+Mumbai
+Moscow
+São Paulo
+Shenzhen
+Jakarta
+Lahore
+Seoul
+Kinshasa
+Cairo
+Mexico City
+Lima
+London
+New York City
+Bangkok
+Ho Chi Minh City
+Nanjing
+Tehran
+Bogotá
+Hong Kong
+Hanoi
+Baghdad
+Dhaka
+Chennai
+Rio de Janeiro
+Santiago
+Riyadh
+Singapore
+Saint Petersburg
+Alexandria
+Ankara
+Johannesburg
+Dar es Salaam
+Giza
+Los Angeles
+San Francisco
+Cape Town
+Yokohama
+Berlin
+Jeddah
+Kabul
+Casablanca
+Madrid
+Peshawar
+Nairobi
+Addis Ababa
+Jaipur
+Buenos Aires
+Toronto
+Vancouver
+Washington D.C.
+Barcelona
+Munich
+Sydney
+Melbourne
+Phoenix
+Milan
+Rome
+Athens
+Houston
+Amsterdam
+Philadelphia
+Detroit
+Chicago
+Boston
+Manchester
+Oxford
+Miami
+Malibu
 
 $COUNTRY
-Afghanistan
+5 Afghanistan
 Albania
 Algeria
 Andorra
@@ -107,7 +195,7 @@ Antigua and Barbuda
 Argentina
 Armenia
 Aruba
-Australia
+5 Australia
 Austria
 Azerbaijan
 The Bahamas
@@ -119,10 +207,10 @@ Belgium
 Belize
 Benin
 Bhutan
-Bolivia
+5 Bolivia
 Bosnia and Herzegovina
 Botswana
-Brazil
+5 Brazil
 Brunei
 Bulgaria
 Burkina Faso
@@ -130,43 +218,43 @@ Burma
 Burundi
 Cambodia
 Cameroon
-Canada
+5 Canada
 Cabo Verde
 Central African Republic
 Chad
 Chile
-China
+10 China
 Colombia
 Comoros
 Democratic Republic of the Congo
 Costa Rica
 Cote d'Ivoire
 Croatia
-Cuba
+5 Cuba
 Curacao
 Cyprus
 Czechia
-Denmark
+2 Denmark
 Djibouti
 Dominica
 Dominican Republic
 East Timor
 Ecuador
-Egypt
+10 Egypt
 El Salvador
 Equatorial Guinea
 Eritrea
 Estonia
-Ethiopia
+2 Ethiopia
 Fiji
-Finland
-France
+2 Finland
+5 France
 Gabon
 The Gambia
 Georgia
-Germany
+5 Germany
 Ghana
-Greece
+10 Greece
 Grenada
 Guatemala
 Guinea
@@ -175,24 +263,24 @@ Guyana
 Haiti
 Holy See
 Honduras
-Hong Kong
+2 Hong Kong
 Hungary
-Iceland
-India
+5 Iceland
+10 India
 Indonesia
-Iran
-Iraq
-Ireland
-Israel
-Italy
-Jamaica
-Japan
+2 Iran
+2 Iraq
+2 Ireland
+2 Israel
+2 Italy
+2 Jamaica
+10 Japan
 Jordan
 Kazakhstan
 Kenya
 Kiribati
-North Korea
-South Korea
+2 North Korea
+2 South Korea
 Kosovo
 Kuwait
 Kyrgyzstan
@@ -207,7 +295,7 @@ Lithuania
 Luxembourg
 Macau
 Macedonia
-Madagascar
+2 Madagascar
 Malawi
 Malaysia
 Maldives
@@ -220,34 +308,33 @@ Mexico
 Micronesia
 Moldova
 Monaco
-Mongolia
+2 Mongolia
 Montenegro
 Morocco
 Mozambique
 Namibia
 Nauru
-Nepal
+5 Nepal
 Netherlands
 New Zealand
 Nicaragua
 Niger
 Nigeria
-North Korea
 Norway
 Oman
-Pakistan
+2 Pakistan
 Palau
 Palestinian Territories
 Panama
 Papua New Guinea
 Paraguay
-Peru
+5 Peru
 Philippines
-Poland
+2 Poland
 Portugal
 Qatar
 Romania
-Russia
+4 Russia
 Rwanda
 Saint Kitts and Nevis
 Saint Lucia
@@ -266,38 +353,38 @@ Slovakia
 Slovenia
 Solomon Islands
 Somalia
-South Africa
-South Korea
+2 South Africa
 South Sudan
-Spain
+5 Spain
 Sri Lanka
 Sudan
 Suriname
 Swaziland
-Sweden
-Switzerland
-Syria
+2 Sweden
+2 Switzerland
+2 Syria
 Taiwan
 Tajikistan
 Tanzania
-Thailand
+2 Thailand
 Timor-Leste
 Togo
 Tonga
 Trinidad and Tobago
 Tunisia
-Turkey
+2 Turkey
 Turkmenistan
 Tuvalu
-Uganda
-Ukraine
+2 Uganda
+2 Ukraine
 United Arab Emirates
-United Kingdom
+10 United Kingdom
 Uruguay
+10 USA
 Uzbekistan
 Vanuatu
 Venezuela
-Vietnam
+2 Vietnam
 Yemen
 Zambia
-Zimbabwe
+5 Zimbabwe
