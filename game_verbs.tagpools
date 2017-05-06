@@ -1,9 +1,9 @@
 $VERB
-align
+2 align
 animate
-arrange
-assemble
-balance
+3 arrange
+3 assemble
+3 balance
 believe
 bind
 bite
@@ -11,42 +11,42 @@ blight
 blind
 breathe
 bring
-build
+5 build
 burn
-buy
-carve
+3 buy
+2 carve
 catalogue
-catch
+3 catch
 charge
-chase
+3 chase
 chew
-climb
-collect
-combine
+3 climb
+5 collect
+2 combine
 command
-control
-craft
-create
-cut
-deliver
-destroy
+3 control
+5 craft
+3 create
+2 cut
+2 deliver
+5 destroy
 dig
 dip
-disassemble
+2 disassemble
 discover
 drain
 draw
 drink
-drop
+3 drop
 eat
 empower
 empty
 excavate
-explore
+2 explore
 feed
-fill
-find
-fling
+2 fill
+5 find
+3 fling
 floss
 forget
 frame
@@ -54,9 +54,9 @@ freeze
 fumble
 gobble
 grind
-hide
+3 hide
 hoard
-hold
+2 hold
 inspect
 invent
 jump
@@ -71,29 +71,29 @@ lose
 mangle
 map
 master
-measure
+2 measure
 memorize
 mend
 mind
-mine
+3 mine
 nullify
 observe
-paint
+3 paint
 pat
-pick
+2 pick
 pile
 pinch
-pull
+2 pull
 punch
 punt
 pursue
-push
-rearrange
+3 push
+3 rearrange
 reave
 receive
-recover
+2 recover
 rend
-ride
+5 ride
 ring
 say
 scream
@@ -109,31 +109,31 @@ skin
 skip
 slap
 slice
-slide
+3 slide
 snap
 sort
 speak
-spin
-stack
+2 spin
+2 stack
 stain
-steal
+2 steal
 step
 stew
 stop
 suck
 taint
 tap
-throw
+4 throw
 toss
-trade
-train
+3 trade
+4 train
 trap
 travel
 trim
 tug
 turn
-twist
-uncover
+2 twist
+2 uncover
 watch
 weave
 wield
@@ -143,8 +143,8 @@ read
 enchant
 translate
 harass
-repel
-attract
+3 repel
+3 attract
 ensnare
 circle
 expose
@@ -153,7 +153,7 @@ track
 adjust
 tune
 manufacture
-launch
+3 launch
 hoist
 harness
 scare
@@ -161,7 +161,7 @@ scar
 strain
 coil
 curl
-guide
+3 guide
 entertain
 perform
 perforate
@@ -179,13 +179,13 @@ polish
 embellish
 traverse
 tackle
-carry
+5 carry
 color
 outline
 emboss
-protect
+4 protect
 nurture
-grow
-defend
-attack
-enclose
+4 grow
+5 defend
+5 attack
+3 enclose

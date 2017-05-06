@@ -1,17 +1,11 @@
 $ADJ
-[COLOR]
-[COLOR]
-[MATERIAL]
-[MATERIAL]
-[MATERIAL]
-[MATERIAL]
-[SIZE]
-[SIZE]
-[SIZE]
-fast
-slow
-hot
-cold
+10 [COLOR]
+10 [MATERIAL]
+10 [SIZE]
+3 fast
+3 slow
+2 hot
+2 cold
 unpredictable
 burning
 freezing
@@ -41,8 +35,7 @@ white
 gray
 
 $MATERIAL
-[METAL]
-[METAL]
+4.0 [METAL]
 wood
 stone
 obsidian
@@ -80,10 +73,8 @@ oversized
 undersized
 
 $ADV
-quickly
-quickly
-slowly
-slowly
+3 quickly
+2 slowly
 carefully
 confidently
 stealthily

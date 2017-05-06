@@ -24,9 +24,9 @@ the Oligocene epoch
 the Eocene epoch
 the Paleocene epoch
 the Mesozoic era
-the Cretaceous period
-the Jurassic period
-the Triassic period
+2 the Cretaceous period
+4 the Jurassic period
+2 the Triassic period
 the Paleozoic era
 
 $CENTURY
@@ -57,8 +57,7 @@ in [CONTINENT]
 in rural [COUNTRY]
 in ancient [COUNTRY]
 somewhere in [CONTINENT]
-in [BUILDING]{nia}
-in [BUILDING]{nia}
+2 in [BUILDING]{nia}
 in [BUILDING]{nia} in [COUNTRY]
 in an abandoned [BUILDING]
 in a secret [BUILDING]

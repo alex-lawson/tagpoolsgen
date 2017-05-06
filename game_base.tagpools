@@ -1,13 +1,12 @@
 $GAME
-[GENRE]{nia} where you [GOAL]
-[FAMOUS GAME] meets [FAMOUS GAME]
-[FAMOUS GAME] as [GENRE]{nia}
-Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSP]
-Like [FAMOUS GAME] but [SETTING]
-Like [FAMOUS GAME] with [MECHANIC]
-Like [FAMOUS GAME] with [MECHANIC] and [FEATURE]
-Like [FAMOUS GAME] based on [MYTHOS]
-Like [FAMOUS GAME] with a strong theme of [THEME]
+0.25 [FAMOUS GAME] meets [FAMOUS GAME]
+0.25 [FAMOUS GAME] as [GENRE]{nia}
+0.25 Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSP]
+0.25 Like [FAMOUS GAME] but [SETTING]
+0.25 Like [FAMOUS GAME] with [MECHANIC]
+0.25 Like [FAMOUS GAME] with [MECHANIC] and [FEATURE]
+0.25 Like [FAMOUS GAME] based on [MYTHOS]
+0.25 [AGAME] but kind of like [FAMOUS GAME]
 [AGAME], set [SETTING] with [NOUNSP]
 [AGAME], set [SETTING] with [MECHANIC]
 [AGAME] with [MECHANIC] where you [GOAL]
@@ -19,25 +18,21 @@ Like [FAMOUS GAME] with a strong theme of [THEME]
 [AGAME] where you [GOAL] as a metaphor for [THEME]
 [AGAME] that represents [THEME] as [NOUNSP]
 [AGAME] with [MECHANIC] and [FEATURE]
-[AGAME] with [MECHANIC] based on [VERB]{vpp} [NOUNSP]
+[AGAME] facilitating [MECHANIC] by [VERB]{vpp} [NOUNSP]
 [AGAME] with [GENRE] elements featuring [NOUNSP]
-[AGAME] but kind of like [FAMOUS GAME]
 [AGAME] that explores [THEME]
-In a world of [NOUNSP] you must [GOAL]
+0.25 In a world of [NOUNSP] you must [GOAL]
 
 $AGAME
-[GENRE]{nia}
-[GENRE]{nia}
-[STYLE]{nia} [GENRE]
-[STYLE]{nia} [GENRE]
-[STYLE]{nia} game
-[STYLE]{nia} game
-[NOUN]{nia} game
-A simple [NOUN] game
-A game about [NOUN]{np}
-A game about [VERB]{vpp}
+3 [GENRE]{nia}
+2 [STYLE]{nia} [GENRE]
+2 [STYLE]{nia} game
+0.25 [NOUN]{nia} game
+0.25 A simple [NOUN] game
+0.5 A game about [NOUN]{np}
+0.5 A game about [VERB]{vpp}
 [GENRE]{nia} based on [MYTHOS]
-A game based on [MYTHOS]
+0.5 A game based on [MYTHOS]
 [STYLE]{nia} game based on [MYTHOS]
 [STYLE]{nia} [GENRE] based on [MYTHOS]
 
@@ -159,11 +154,9 @@ jealousy
 opportunity
 
 $MYTHOS
-the writing of [AUTHOR]
-the writing of [AUTHOR]
-the writing of [AUTHOR]
-the writing of [AUTHOR]
-1001 Arabian Nights
+4 the writing of [AUTHOR]
+European fairy tales
+the tales of the Arabian Nights
 Norse mythology
 Egyptian mythology
 Roman mythology
