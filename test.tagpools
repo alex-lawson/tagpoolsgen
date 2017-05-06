@@ -1,12 +1,20 @@
-$TEST
-[TEST1]{nia}
+$TESTWEIGHT
+1.9 apple
+0.1 pear
+banana
+orange
+lemon
+5 lime
 
-$TEST1
+$TESTNIA
+[TESTNIA1]{nia}
+
+$TESTNIA1
 super power
 insane clown posse
 new way to spell 'hooray'
-[TEST2] and friends
+[TESTNIA2] and friends
 
-$TEST2
+$TESTNIA2
 abercrombie
 barney

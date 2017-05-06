@@ -25,7 +25,7 @@ inf = inflect.engine()
 def handle_match(match):
     key = match.group(1)
     if key in pools:
-        choice = random.choice(pools[key])
+        choice = pick_from_pool(key)
         choice = replace_tags(choice)
         if match.group(3):
             op = match.group(3)
@@ -61,6 +61,8 @@ def load_pools():
     global pools
     pools={}
 
+    poolsums = {}
+
     cwd = os.getcwd()
     dirfiles = [f for f in os.listdir(cwd) if os.path.isfile(os.path.join(cwd, f))]
 
@@ -75,9 +77,32 @@ def load_pools():
                     curkey = line[1:]
                     if not curkey in pools:
                         pools[curkey] = []
+                        poolsums[curkey] = 0
                 elif len(line) > 0:
-                    pools[curkey].append(line)
+                    lineparts = line.split(' ')
+                    try:
+                        itemweight = float(lineparts[0])
+                        pools[curkey].append([itemweight, str.join(' ', lineparts[1:])])
+                        poolsums[curkey] += itemweight
+                    except ValueError:
+                        pools[curkey].append([1.0, line])
+                        poolsums[curkey] += 1
             poolsfile.close()
+
+    for poolname, pool in pools.iteritems():
+        curweight = 1.0
+        poolsum = poolsums[poolname]
+        for i, item in enumerate(pool):
+            itemweight = item[0] / poolsum
+            curweight -= itemweight
+            pool[i][0] = curweight
+
+def pick_from_pool(poolname):
+    pool = pools[poolname]
+    randchoice = random.random()
+    for item in pool:
+        if randchoice >= item[0]:
+            return item[1]
 
 def main(argv):
     targetcount = 10
