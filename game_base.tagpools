@@ -4,21 +4,22 @@ $GAME
 [FAMOUS GAME] as [GENRE]{nia}
 Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSP]
 Like [FAMOUS GAME] but [SETTING]
-Like [FAMOUS GAME] with [FEATURE]
+Like [FAMOUS GAME] with [MECHANIC]
+Like [FAMOUS GAME] with [MECHANIC] and [FEATURE]
 Like [FAMOUS GAME] based on [MYTHOS]
 Like [FAMOUS GAME] with a strong theme of [THEME]
 [AGAME], set [SETTING] with [NOUNSP]
-[AGAME], set [SETTING] with [FEATURE]
-[AGAME] with [FEATURE] where you [GOAL]
+[AGAME], set [SETTING] with [MECHANIC]
+[AGAME] with [MECHANIC] where you [GOAL]
 [AGAME] in which you must [GOAL]
 [AGAME] that challenges you to [GOAL]
-[AGAME] where you [GOAL]
+[AGAME] where you [GOAL], with [FEATURE]
 [AGAME] where you [GOAL]
 [AGAME] that explores [THEME] where you [GOAL]
 [AGAME] where you [GOAL] as a metaphor for [THEME]
-[AGAME] that represents [THEME] using [NOUNSP]
-[AGAME] with [FEATURE] and [FEATURE]
-[AGAME] with [FEATURE] based on [VERB]{vpp} [NOUNSP]
+[AGAME] that represents [THEME] as [NOUNSP]
+[AGAME] with [MECHANIC] and [FEATURE]
+[AGAME] with [MECHANIC] based on [VERB]{vpp} [NOUNSP]
 [AGAME] with [GENRE] elements featuring [NOUNSP]
 [AGAME] but kind of like [FAMOUS GAME]
 [AGAME] that explores [THEME]
@@ -39,6 +40,27 @@ A game about [VERB]{vpp}
 A game based on [MYTHOS]
 [STYLE]{nia} game based on [MYTHOS]
 [STYLE]{nia} [GENRE] based on [MYTHOS]
+
+$GOAL
+[VERB] [NOUNSP]
+[VERB] [OBJECT]{np}
+[VERB] [NOUNSP] [ADV]
+[VERB] [NOUNSP] with [NOUNSP]
+[VERB] [OBJECT]{np} with [NOUNSP]
+[VERB] [NOUNSP] with [IMPLEMENT]{np}
+[ADV] [VERB] [NOUNSP] with [NOUNSP]
+use [NOUNSP] to [VERB] [OBJECT]{np}
+use [IMPLEMENT] to [VERB] [NOUNSP]
+fill [CONTAINER]{np} with [NOUNSP]
+collect [OBJECT]{np} in [CONTAINER]{nia}
+collect all the [ADJ] [TREASURE]{np}
+assemble [NOUN]{np} to form [NOUNSP]
+
+$NOUNSP
+[NOUN]{nia}
+[NOUN]{np}
+[ADJ]{nia} [NOUN]
+[ADJ] [NOUN]{np}
 
 $STYLE
 science fiction
@@ -95,8 +117,7 @@ reality television
 space colonization
 capitalism
 communism
-utopia
-dystopia
+utopia/dystopia
 ecology
 economics
 eugenics
@@ -346,36 +367,58 @@ Typing of the Dead
 Life is Strange
 Sonic
 
-$FEATURE
-roguelike elements
+$MECHANIC
+time-rewinding
+fully-destructible terrain
+deformable terrain
+fluid simulation
+day and night cycles
+fog of war
 turn-based combat
 real-time combat
-extensive crafting
-asynchronous multiplayer
-time-rewinding
-procedural generation
+crafting
+limited visibility
+combo multipliers
+rhythm elements
+puzzles
+jumping
+platforming
+stealth
+sniping
+survival
+racing
+player-built structures
+player-built vehicles
+weapon customization
+time management
+simulated economy
+simulated ecology
+simulated geology
 non-Euclidean geometry
-day and night cycles
-fluid dynamics
+dialogue trees
+procedurally generated text
+procedurally generated worlds
+procedurally generated [NOUN]{np}
+
+$FEATURE
+roguelike elements
+character customization
+asynchronous multiplayer
+procedural generation
+an open world
 a block-based world
-fully-destructible terrain
 user-generated content
 light social features
 automatic GIF export
-physics-based movement
 infinite worlds
 downloadable content
 VR support
-simulated geology
-deformable terrain
 political commentary
 deep narrative
 social commentary
 persistent worlds
 long-term progression
 procedural character interaction
-limited visibility
-fog of war
 deliberately awkward controls
 ranked PvP
 global leaderboards
@@ -397,18 +440,4 @@ a physical companion book
 a custom controller
 real-time progression
 mod support
-
-$GOAL
-[VERB] [NOUNSP]
-[VERB] [NOUNSP]
-[VERB] [NOUNSP] [ADV]
-[VERB] [NOUNSP] with [NOUNSP]
-[VERB] [NOUNSP] with [NOUNSP]
-[ADV] [VERB] [NOUNSP] with [NOUNSP]
-use [NOUNSP] to [VERB] [NOUNSP]
-
-$NOUNSP
-[NOUN]{nia}
-[NOUN]{np}
-[ADJ]{nia} [NOUN]
-[ADJ] [NOUN]{np}
+a single save slot
