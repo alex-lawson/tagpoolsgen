@@ -1,12 +1,12 @@
 $GAME
-0.25 [FAMOUS GAME] meets [FAMOUS GAME]
-0.25 [FAMOUS GAME] as [GENRE]{nia}
-0.25 Like [FAMOUS GAME] but with [VERB]{vpp} [NOUNSPNIA]
-0.25 Like [FAMOUS GAME] but [SETTING]
-0.25 Like [FAMOUS GAME] with [MECHANIC]
-0.25 Like [FAMOUS GAME] with [MECHANIC] and [FEATURE]
-0.25 Like [FAMOUS GAME] based on [MYTHOS]
-0.25 [AGAME] but kind of like [FAMOUS GAME]
+0.25 [OTHERGAME] meets [OTHERGAME]
+0.25 [VIDEOGAME] as [GENRE]{nia}
+0.25 Like [VIDEOGAME] but with [VERB]{vpp} [NOUNSPNIA]
+0.25 Like [VIDEOGAME] but [SETTING]
+0.25 Like [VIDEOGAME] with [MECHANIC]
+0.25 Like [VIDEOGAME] with [MECHANIC] and [FEATURE]
+0.25 Like [OTHERGAME] based on [MYTHOS]
+0.25 [AGAME] but kind of like [OTHERGAME]
 [AGAME], set [SETTING] with [NOUNSPNIA]
 [AGAME], set [SETTING] with [MECHANIC]
 [AGAME] with [MECHANIC] where you [GOAL]
@@ -96,8 +96,11 @@ protect the [NOUNSP]
 discover the [NOUNSP]
 [VERB] the [NOUNSP]
 become the [ADJ] [NOUN]
+teach [PERSON]{np} to [VERB]
+0.5 teach [ANIMAL]{np} to [VERB]
 
 $CONDITION
+2 time runs out
 the [EVENT] begins
 the [EVENT] ends
 the [NOUN] is [ADJ]
@@ -318,129 +321,6 @@ Typing Game
 Vertically-scrolling Shooter
 Visual Novel
 Walking Simulator
-
-$FAMOUS GAME
-Minecraft
-Terraria
-Starbound
-Mario
-Zelda
-No Man's Sky
-Dark Souls
-Bioshock
-Half-Life
-Portal
-Resident Evil
-Silent Hill
-Final Fantasy
-Skyrim
-Donkey Kong
-Street Fighter
-Soul Calibur
-Tony Hawk's Pro Skater
-Perfect Dark
-Grand Theft Auto
-Super Metroid
-Uncharted
-GoldenEye 007
-Mass Effect
-Tekken
-Gran Turismo
-Mario Kart
-Metal Gear Solid
-Halo
-Red Dead Redemption
-Baldur's Gate
-Planescape Torment
-Call of Duty
-Splinter Cell
-Chrono Trigger
-Secret of Mana
-Gears of War
-Civilization
-Ninja Gaiden
-Madden
-Diablo
-World of Warcraft
-EverQuest
-Jet Set Radio
-The Witcher
-Persona
-Pac Man
-Asteroids
-Breakout
-Pong
-Braid
-Fez
-The Witness
-Burnout
-Smash Bros.
-Starcraft
-Warcraft
-Command and Conquer
-Fallout
-Paper Mario
-Skies of Arcadia
-Castlevania
-Okami
-Homeworld
-Quake
-DOOM
-Prince of Persia
-Guitar Hero
-Dance Dance Revolution
-Banjo-Kazooie
-Sid Meier's Pirates
-Forza
-Advance Wars
-Team Fortress
-Rome: Total War
-Undertale
-Stardew Valley
-Fire Emblem
-Animal Crossing
-Age of Empires
-Journey
-PaRappa the Rapper
-Medal of Honor
-Rayman
-Crash Bandicoot
-Commander Keen
-Tiger Woods PGA Tour
-Overwatch
-Virtua Tennis
-Dishonored
-Spyro
-Borderlands
-Peggle
-DotA
-League of Legends
-Yoshi's Island
-Full Throttle
-Day of the Tentacle
-The Dig
-Neverwinter Nights
-Golden Sun
-The Sims
-Spelunky
-Rogue Legacy
-Nethack
-Hearthstone
-Black & White
-Battlefield
-Unreal Tournament
-Tetris
-Mario Paint
-Firewatch
-Sim City
-Sim Ant
-SpaceChem
-Kerbal Space Program
-Bastion
-Gauntlet
-Typing of the Dead
-Life is Strange
-Sonic
 
 $MECHANIC
 time-rewinding
