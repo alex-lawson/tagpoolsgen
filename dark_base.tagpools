@@ -1,0 +1,100 @@
+$ADJ
+shadowy
+nightmarish
+corrupted
+grim
+fel
+ghostly
+howling
+bloody
+black
+crimson
+weeping
+dark
+dying
+fading
+shattered
+enslaved
+
+$LOCALEADJ
+2 corrupted
+2 eldritch
+2 infested
+2 plagued
+2 howling
+2 dead
+2 haunted
+2 dark
+2 sunless
+
+$LOCALE
+3 castle
+3 mansion
+3 cliff
+3 laboratory
+3 graveyard
+3 cavern
+3 grotto
+3 catacomb
+3 tomb
+3 abyss
+den
+lair
+
+$NOUN
+
+$CREATURE
+child
+human
+lurker
+thief
+killer
+murderer
+hangman
+criminal
+cultist
+mortician
+raven
+crow
+rat
+bat
+vampire
+demon
+ghost
+werewolf
+imp
+skeleton
+spectre
+mummy
+zombie
+
+$OBJECT
+cross
+pentagram
+church
+grave
+tombstone
+tomb
+coffin
+spire
+stake
+sword
+whip
+chain
+cage
+spike
+
+$VERB
+slaughter
+sacrifice
+corrupt
+dissolve
+murder
+darken
+drain
+consume
+desecrate
+stalk
+hunt
+cage
+trap

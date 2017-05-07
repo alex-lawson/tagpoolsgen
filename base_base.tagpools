@@ -1,0 +1,115 @@
+$GAME
+A game about [ACTIVITYPP]
+A game about [ACTIVITYPP] [SETTING]
+A game where you [ACTIVITY]
+A game set [SETTING] where you [ACTIVITY]
+A game where you [ACTIVITY] to [ACTIVITY]
+
+$ANOUNSP
+3 [NOUN]{nia}
+3 [NOUN]{np}
+[ADJ]{nia} [NOUN]
+[ADJ] [NOUN]{np}
+
+$SETTING
+in [LOCALEADJ]{nia} [LOCALE]
+
+$ACTIVITY
+[VERB] [ANOUNSP]
+
+$ACTIVITYPP
+[VERB]{vpp} [ANOUNSP]
+
+$LOCALEADJ
+airless
+barren
+broken
+drab
+enchanted
+fiery
+forested
+forgotten
+frigid
+frozen
+glacial
+grassy
+hidden
+humid
+icy
+isolated
+lost
+mossy
+overgrown
+poisonous
+populated
+rainy
+remote
+rocky
+salty
+sandy
+scorching
+shattered
+snowy
+stony
+stormy
+sunny
+temperate
+toxic
+uninhabited
+windy
+
+$LOCALE
+valley
+mountain
+river
+plain
+forest
+lake
+cave
+desert
+island
+highland
+mesa
+forest
+field
+meadow
+clearing
+jungle
+canyon
+mine
+
+$ADJ
+small
+large
+fast
+slow
+hidden
+0.25 hot
+0.25 cold
+
+$VERB
+2 acquire
+2 create
+2 assemble
+2 defend
+2 destroy
+2 attack
+2 move
+2 find
+hide
+
+$NOUN
+[CREATURE]
+[OBJECT]
+
+$CREATURE
+person
+creature
+monster
+
+$OBJECT
+weapon
+armor
+food
+token
+treasure

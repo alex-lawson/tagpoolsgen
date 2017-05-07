@@ -150,9 +150,7 @@ $GAMEVERB
 2 disassemble
 2 explore
 2 fill
-3 hold
 2 measure
-3 choose
 2 pull
 2 recover
 2 spin
@@ -165,6 +163,7 @@ $GAMEVERB
 3 buy
 3 catch
 3 chase
+3 choose
 3 climb
 3 control
 3 create
@@ -172,6 +171,7 @@ $GAMEVERB
 3 fling
 3 guide
 3 hide
+3 hold
 3 launch
 3 mine
 3 paint
@@ -180,6 +180,7 @@ $GAMEVERB
 3 repel
 3 slide
 3 trade
+3 transform
 4 grow
 4 protect
 4 throw
@@ -188,13 +189,12 @@ $GAMEVERB
 5 build
 5 carry
 5 collect
+5 combine
 5 craft
 5 defend
 5 destroy
 5 find
 5 ride
-5 combine
-3 transform
 
 $TRAVEL
 3 ride [VEHICLE]{nia}
