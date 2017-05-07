@@ -146,12 +146,13 @@ def pick_from_pool(flavors, poolname):
 
     weightcounter = 0
     for flavor in flavors:
-        for poolitem in pools[flavor][poolname]:
-            weightcounter += poolitem[0]
-            # print('weightcounter {} item {}'.format(weightcounter, poolitem))
-            if randchoice <= weightcounter:
-                # print('selected {}'.format(poolitem[1]))
-                return poolitem[1]
+        if poolname in pools[flavor]:
+            for poolitem in pools[flavor][poolname]:
+                weightcounter += poolitem[0]
+                # print('weightcounter {} item {}'.format(weightcounter, poolitem))
+                if randchoice <= weightcounter:
+                    # print('selected {}'.format(poolitem[1]))
+                    return poolitem[1]
 
     # print("FAILED to choose from pool {} with flavors {}".format(poolname, flavors))
 

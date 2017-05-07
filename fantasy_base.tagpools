@@ -1,0 +1,151 @@
+$ADJ
+enchanted
+prophecied
+glittering
+lost
+hidden
+final
+long-lost
+secret
+[PERSON]'s
+
+$LOCALEADJ
+enchanted
+fey
+shining
+verdant
+glittering
+crystal
+hallowed
+peaceful
+war-torn
+occupied
+misty
+legendary
+mythical
+storied
+forgotten
+lonely
+sacred
+
+$LOCALE
+2 castle
+fortress
+2 palace
+3 valley
+3 mountain
+vale
+peak
+5 dungeon
+3 village
+2 city
+hamlet
+hut
+2 farm
+
+$ANOUNSP
+0.1 a skeletal [CREATURE]
+0.1 skeletal [CREATURE]{np}
+
+$CREATURE
+10 [NOBLE]
+knight
+wizard
+witch
+enchantress
+healer
+thief
+rogue
+gambler
+sapper
+soldier
+farmer
+serf
+servant
+steward
+weaver
+blacksmith
+miner
+dwarf
+elf
+gnome
+dragon
+goblin
+orc
+hound
+giant
+ogre
+fairy
+dryad
+hero
+adventurer
+archer
+
+$NOBLE
+3 noble
+2 king
+2 queen
+2 prince
+2 princess
+2 lord
+2 lady
+count
+countess
+baron
+baroness
+
+$OBJECT
+[WEAPON]
+[ARMOR]
+[ITEM]
+[TREASURE]
+
+$WEAPON
+sword
+longsword
+bow
+crossbow
+spear
+lance
+dagger
+halberd
+pike
+sling
+
+$ARMOR
+breastplate
+chainmail
+helmet
+hauberk
+pauldron
+cuirass
+shield
+helm
+
+$ITEM
+key
+candle
+torch
+flag
+
+$TREASURE
+treasure
+treasure chest
+chalice
+crystal
+goblet
+necklace
+amulet
+2 ring
+jewel
+gem
+orb
+
+$VERB
+slay
+2 retrieve
+2 discover
+2 save
+2 rescue
+2 forge
+2 enchant
